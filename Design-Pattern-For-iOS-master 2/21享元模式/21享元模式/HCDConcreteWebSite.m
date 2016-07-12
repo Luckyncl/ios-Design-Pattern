@@ -8,6 +8,10 @@
 
 #import "HCDConcreteWebSite.h"
 
+
+/**
+ *  继承flyweight超类或实现flyweight接口，并为内部状态增加存储空间
+ */
 @implementation HCDConcreteWebSite
 -(void)use:(HCDUser *)user{
     NSLog(@"网站分类:%@,用户:%@",self.webName,user.name);
