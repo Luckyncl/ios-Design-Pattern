@@ -1,13 +1,9 @@
-//
-//  HCDContext.m
-//  22解释器模式
-//
-//  Created by 黄成都 on 15/8/27.
-//  Copyright (c) 2015年 黄成都. All rights reserved.
-//
+
 
 #import "HCDContext.h"
-
+/**
+   包含解释器之外的一些全局信息
+ */
 @implementation HCDContext
 -(instancetype)initWithInput:(NSString *)input{
     self = [super init];

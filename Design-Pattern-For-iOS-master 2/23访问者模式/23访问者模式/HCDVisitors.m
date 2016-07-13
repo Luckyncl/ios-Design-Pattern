@@ -9,6 +9,8 @@
 #import "HCDVisitors.h"
 #import "HCDConcreteElementA.h"
 #import "HCDConcreteElementB.h"
+
+
 @implementation HCDVisitors
 -(void)VisitConcreteElementA:(HCDConcreteElementA *)concreteElementA{
     return;

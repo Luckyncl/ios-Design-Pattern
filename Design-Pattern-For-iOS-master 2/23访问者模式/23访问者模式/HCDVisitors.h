@@ -8,6 +8,10 @@
 
 #import <Foundation/Foundation.h>
 @class HCDConcreteElementA,HCDConcreteElementB;
+
+
+// 抽象的访问者
+
 @interface HCDVisitors : NSObject
 -(void)VisitConcreteElementA:(HCDConcreteElementA *)concreteElementA;
 -(void)VisitConcreteElementB:(HCDConcreteElementB *)concreteElementB;
